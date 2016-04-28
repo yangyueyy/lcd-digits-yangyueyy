@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69788f66-b0b1-467f-9c88-2592e30205df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/jasmine_favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd-digits/main/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd-digits/run.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd-digits/test/fixtures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lcd-digits/test/main-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.3.4/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/lodash-3.9.3/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/moment-2.10.3/moment-with-locales.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lcd-digits/main/main.js" afterPath="$PROJECT_DIR$/lcd-digits/main/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lcd-digits/test/main-test.js" afterPath="$PROJECT_DIR$/lcd-digits/test/main-test.js" />
     </list>
     <ignored path="lcd-digits-yangyueyy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +39,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lcd-digits/main/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="213">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -67,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lcd-digits/run.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lcd-digits/test/main-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -103,9 +92,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lcd-digits/run.html" />
-        <option value="$PROJECT_DIR$/lcd-digits/main/main.js" />
-        <option value="$PROJECT_DIR$/lcd-digits/test/main-test.js" />
         <option value="$PROJECT_DIR$/lcd-digits/test/fixtures.js" />
+        <option value="$PROJECT_DIR$/lcd-digits/test/main-test.js" />
+        <option value="$PROJECT_DIR$/lcd-digits/main/main.js" />
       </list>
     </option>
   </component>
@@ -316,12 +305,12 @@
       <workItem from="1461661597007" duration="10842000" />
       <workItem from="1461745872358" duration="5928000" />
       <workItem from="1461756405334" duration="179000" />
-      <workItem from="1461824617411" duration="2446000" />
+      <workItem from="1461824617411" duration="4001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27979000" />
+    <option name="totallyTimeSpent" value="29534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -600,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcd-digits/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -616,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcd-digits/test/main-test.js">
+    <entry file="file://$PROJECT_DIR$/lcd-digits/run.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        <state relative-caret-position="162">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -634,10 +615,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcd-digits/run.html">
+    <entry file="file://$PROJECT_DIR$/lcd-digits/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="213">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lcd-digits/test/main-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding />
         </state>
       </provider>

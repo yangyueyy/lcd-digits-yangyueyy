@@ -3,9 +3,7 @@ function toPrintLcd(allLcds) {
 
     var lcdNumbers = buildLcdNumber(allLcds, numbers);
 
-    var numberArrays = reconstitueLcd(lcdNumbers);
-
-    var numberText = printLcd(numberArrays);
+    var numberText = printLcd(lcdNumbers);
 
     console.log(numberText);
 }
@@ -39,7 +37,8 @@ function getExistLcd(allLcds, number) {
     return existLcd;
 }
 
-function reconstitueLcd(lcdNumbers) {
+function printLcd(lcdNumbers) {
+    var numberText = '';
     var numberArrays = [];
     var i = 0, j = 0;
 
@@ -51,12 +50,6 @@ function reconstitueLcd(lcdNumbers) {
 
         numberArrays.push(numberi);
     }
-
-    return numberArrays;
-}
-
-function printLcd(numberArrays) {
-    var numberText = '';
 
     numberArrays.forEach(function (numberArray) {
         numberText += numberArray + '\n';

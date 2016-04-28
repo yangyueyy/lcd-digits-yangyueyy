@@ -75,27 +75,5 @@ describe('unitTest', function () {
             expect(expectNumber).toEqual(lcdNumbers);
         });
     });
-
-    describe('reconstitueLcd', function () {
-        var allLcds;
-        var numbers;
-
-        beforeEach(function () {
-            allLcds = describeLcd();
-            numbers = splitNumber();
-        });
-
-        it('should print correct reconstitueLcd', function () {
-            var lcdNumbers = buildLcdNumber(allLcds, numbers);
-            var numberArrays = reconstitueLcd(lcdNumbers);
-            var expectArrays = [
-                '._. ... ._. ',
-                '|_| ..| |.| ',
-                '..| ..| |_| '
-            ];
-
-            expect(expectArrays).toEqual(numberArrays);
-        });
-    });
 });
 
