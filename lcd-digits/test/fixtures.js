@@ -65,3 +65,8 @@ function describeLcd() {
         }
     ];
 }
+function lcdString(){
+    var numberstring = '910';
+    
+    return numberstring;
+}

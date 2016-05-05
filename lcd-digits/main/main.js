@@ -1,23 +1,25 @@
-function toPrintLcd(allLcds) {
-    var numbers = splitNumber();
+function toPrintLcd(lcdStings) {
+    var numbers = splitNumber(lcdStings);
 
-    var lcdNumbers = buildLcdNumber(allLcds, numbers);
+    var lcdNumbers = buildLcdNumber(numbers);
 
     var numberText = printLcd(lcdNumbers);
 
     console.log(numberText);
 }
 
-function splitNumber() {
-    var numberstring = '910';
+function splitNumber(lcdStings) {
     var number;
-    number = numberstring.split('');
+    
+    number = lcdStings.split('');
+    
     return number;
 }
 
-function buildLcdNumber(allLcds, numbers) {
+function buildLcdNumber(numbers) {
     var lcdNumbers = [];
-
+    var allLcds=describeLcd();
+    
     numbers.forEach(function (number) {
         var lcdNumber = getExistLcd(allLcds, number);
         lcdNumbers.push(lcdNumber);
@@ -53,7 +55,7 @@ function printLcd(lcdNumbers) {
 
     numberArrays.forEach(function (numberArray) {
         numberText += numberArray + '\n';
-    })
+    });
 
     return numberText;
 }
