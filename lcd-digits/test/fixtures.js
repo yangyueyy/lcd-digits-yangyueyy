@@ -1,6 +1,3 @@
-/**
- * Created by yangyue on 16-4-25.
- */
 function describeLcd() {
     return [
         {

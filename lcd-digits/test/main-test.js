@@ -1,15 +1,15 @@
 describe('Lcd-digits', function () {
-    var lcdStings;
+    var lcdStrings;
 
     beforeEach(function () {
-        lcdStings=lcdString();
+        lcdStrings = lcdString();
     });
 
     it('should print correct LCD', function () {
 
         spyOn(console, 'log');
 
-        toPrintLcd(lcdStings);
+        toPrintLcd(lcdStrings);
 
         var expectText =
             '._. ... ._. \n' +
@@ -22,29 +22,29 @@ describe('Lcd-digits', function () {
 
 describe('unitTest', function () {
     describe('splitNumber', function () {
-        var lcdStings;
+        var lcdStrings;
         var numbers;
-        
+
 
         beforeEach(function () {
-            lcdStings=lcdString();
+            lcdStrings = lcdString();
         });
 
         it('should print correct number', function () {
-            numbers = splitNumber(lcdStings);
+            numbers = splitNumber(lcdStrings);
 
-            var expectNumber = ['9', '1', '0'];
+            var expectNumber = [9, 1, 0];
             expect(numbers).toEqual(expectNumber);
         });
     });
 
     describe('buildLcdNumber', function () {
-        var lcdStings;
+        var lcdStrings;
         var numbers;
 
         beforeEach(function () {
-            lcdStings=lcdString();
-            numbers = splitNumber(lcdStings);
+            lcdStrings = lcdString();
+            numbers = splitNumber(lcdStrings);
 
         });
 
@@ -75,6 +75,6 @@ describe('unitTest', function () {
             expect(expectNumber).toEqual(lcdNumbers);
         });
     });
-    
+
 });
 

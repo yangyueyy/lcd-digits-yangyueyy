@@ -9,17 +9,21 @@ function toPrintLcd(lcdStings) {
 }
 
 function splitNumber(lcdStings) {
-    var number;
-    
-    number = lcdStings.split('');
-    
-    return number;
+    var numberStrings;
+    var numberInts = [];
+
+    numberStrings = lcdStings.split('');
+    numberStrings.forEach(function (numberString) {
+        numberInts.push(parseInt(numberString));
+    });
+
+    return numberInts;
 }
 
 function buildLcdNumber(numbers) {
     var lcdNumbers = [];
-    var allLcds=describeLcd();
-    
+    var allLcds = describeLcd();
+
     numbers.forEach(function (number) {
         var lcdNumber = getExistLcd(allLcds, number);
         lcdNumbers.push(lcdNumber);
@@ -32,8 +36,9 @@ function getExistLcd(allLcds, number) {
     var existLcd;
 
     allLcds.forEach(function (allLcd) {
-        if (allLcd.number == number)
+        if (allLcd.number === number) {
             existLcd = allLcd;
+        }
     });
 
     return existLcd;
